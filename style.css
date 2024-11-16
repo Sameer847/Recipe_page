@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 273vh;
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Young Serif', serif;
+
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+p, span, li {
+  font-family: 'Outfit', serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+main {
+  width: min(100%, 41rem);
+}
+.Heading {
+  color: hsl(14, 45%, 36%);
+}
+.preparation h2 {
+  font-size: 16px;
+  font-family: 'Outfit', serif;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 11px;  
+}
+.preparation ul {
+  /* padding-left: 20px;  */
+  
+}
+.preparation {
+  background: hsl(330, 100%, 98%);
+  border-radius: 10px;
+}
+.Heading {
+  margin-bottom: 13px;  
+  margin-top: 26px;
+
+}
+ul {
+  padding-left: 23px; 
+  /* color: hsl(14, 45%, 36%); */
+}
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+ol {
+  padding-left: 23px; 
+}
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+li {
+  margin-bottom: 9px;  
+  padding-left: 11px;
+}
+table {
+  width: 97%;
+  padding-left: 1.5em;
+  padding-top: 25px;
+}
+.dark-brown {
+  font-weight: 600;
+  color: hsl(24, 5%, 18%);
+}
+.Similar_font, .highlight {
+  color: hsl(30, 10%, 34%);
+}
+h1 {
+  font-size: 2.5rem;
+  font-family: "Young Serif", serif;
+  font-weight: lighter;
+  color: hsl(24, 5%, 18%);
+ }
+ h2 {
+  font-weight: 400;
+ }
+.Recipe_card {
+  /* width: 567px; */
+  /* height: 57em; */
+  height: fit-content;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 21px;
+  
+}
+.Similar_font {
+  margin-top: 15px;
+}
+.preparation {
+  margin-top: 40px;
+  padding: 18px 26px;
+  margin-bottom: 35px;
+}
+
+.image img {
+  width: 100%;
+  height: 288px;
+  padding: 27px;
+  border-radius: 40px;
+}
+.Outerpadding {
+  padding: 0px 29px 29px 29px;
+}
+
+td {
+  font-family: 'Outfit', serif;
+}
+.bold {
+ color: hsl(14, 45%, 36%);
+ font-weight: 600;
+}
+.no-line {
+  color: hsl(30, 10%, 34%);
+}
+
+/* td:not(.no-line) {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+} */
+
+/* td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+} */
+table td {
+  padding-bottom: 13px; 
+  padding-top: 10px; 
+}
+
+td:not(.not_line) {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.Ingredients {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 21px;
+}
+.Instruction {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 21px;
+}
+
+/* Responsive start  */
+@media screen and (max-width: 375px) {
+  body {
+    /* font-size: 14px; */
+    /* height: 687vh; */
+  }
+  .image img {
+    /* width: 100%; */
+   height: auto;
+    padding: 0px;
+    border-radius: 0;
+}
+  main {
+    height: 270vh !important;
+  }
+
+
+
+}
